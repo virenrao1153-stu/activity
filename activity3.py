@@ -8,5 +8,6 @@ sum = math + english + science + hindi
 print("sum of math,english,science, and hindi")
 
 perc = (sum/400)*100
-print(end+"Percentage Mark =")
+print(end="Percentage Mark =")
 print(perc)
+
