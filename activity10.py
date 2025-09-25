@@ -7,4 +7,4 @@ a = "python"
 b = "coding"
 if a != b :
     print(a, 'and', 'are different.')
-    
+    print(a, 'and', 'are completely different')
