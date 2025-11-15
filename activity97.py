@@ -12,4 +12,4 @@ while True:
     elif guess < secret:
         print("Too low!")
     else:
-        print("Too high!")
+        print("Too high!")
