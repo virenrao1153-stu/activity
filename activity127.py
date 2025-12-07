@@ -18,4 +18,4 @@ while(True):
     print("\nYour flashcards")
     for i in flash:
         print(">", i)
-        
+    
