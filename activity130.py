@@ -9,8 +9,8 @@ PLAYER_START_X = 370
 PLAYER_START_Y = 380
 ENEMY_START_Y_MIN = 50
 ENEMY_START_Y_MAX = 150
-ENEMY_SPEED_X = 4
-ENEMY_SPEED_Y = 40
+ENEMY_SPEED_X = 1
+ENEMY_SPEED_Y = 10
 BULLET_SPEED_Y = 10
 COLLISION_DISTANCE = 27
 
@@ -48,6 +48,7 @@ for i in range(num_of_enemies):
 
 # ================= BULLET =================
 bulletImg = pygame.image.load("bullet.png")
+bulletImg = pygame.transform.scale(bulletImg, (32, 52))
 bulletX = 0
 bulletY = PLAYER_START_Y
 bulletY_change = BULLET_SPEED_Y
